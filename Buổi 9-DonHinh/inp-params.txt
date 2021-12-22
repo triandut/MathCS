@@ -1,0 +1,20 @@
+2 -2 1 -1 1 1 1 0
+1 2 1 2 1 0 0 7
+3 -1 -2 1 0 1 0 6
+2 -2 -1 1 0 0 1 5
+
+
+{% comment %} -%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-
+(Quy đổi thành hệ chính tắc đặc biệt)
+Hàng 1 là hệ số của f(x) = 2X1 - 2X2 + X3 -X4 + T1 + T2 + T3 + 0B 
+Hàng 2 -> 4 là hệ số của ràng buộc D đã thêm biến T
+    2: X1 + 2X2 + X3 + 2X4 + T1 + 0T2 + 0T3 + B1 (= 7)
+    3: 3X1 - X2 - 2X3 + X4 + 0T1 + T2 + 0T3 + B2 (= 6)
+    4: 2X1 - 2X2 - X3 + X4 + 0T1 + 0T2 + T3 + B3 (= 5) 
+
+Input Main: 
+    m = Số hàng Tương ứng với Ma trận Input (= 4)
+    n = Số cột Tương ứng với Ma trận Input (= 8)
+    a = Số cột thêm vào cuối f(x) cụ thể là các T1, T2, T3 (= 3)
+    ukn = Số biến mà không biết cần tìm là X1, X2, X3, X4 (= 4)
+{% endcomment %}
